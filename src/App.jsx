@@ -2,7 +2,7 @@ import "./App.css";
 import { useState, useEffect } from "react";
 
 function App() {
-  const url = "https://demo-backend-nodejs.vercel.app/";
+  const url = "demo-backend-pi.vercel.app";
   const [data, setData] = useState([]);
 
   const fetchInfo = () => {
